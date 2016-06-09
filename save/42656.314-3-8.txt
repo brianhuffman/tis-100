@@ -1,0 +1,32 @@
+@0
+## FEWEST INSTRS
+
+@1
+#INVARIANT: ACC=0
+A: MOV ACC RIGHT
+MOV UP ACC
+JNZ A
+B: MOV RIGHT ACC
+MOV ACC DOWN
+JNZ B
+
+@2
+
+
+@3
+
+
+@4
+MOV UP DOWN
+
+@5
+
+
+@6
+
+
+@7
+MOV LEFT DOWN
+
+@8
+
