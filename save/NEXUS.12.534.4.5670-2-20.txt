@@ -1,0 +1,52 @@
+@0
+## FEWEST INSTRS
+
+# 5670/2/20
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV 30 ACC
+A: MOV 7 RIGHT
+SUB 1
+JGZ A
+MOV 32 ACC
+B: MOV 5 RIGHT
+SUB 1
+JGZ B
+
+@9
+MOV 0 DOWN
+MOV ACC DOWN
+SUB 619
+A: SWP
+MOV ACC DOWN
+SUB LEFT
+LZ: ADD 4
+JLZ LZ
+SWP
+ADD 20
+JLZ A
+MOV -1 DOWN
+
+@10
+
