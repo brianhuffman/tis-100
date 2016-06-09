@@ -1,0 +1,49 @@
+@0
+## FEWEST CYCLES
+
+# 81/5/20
+
+@1
+JMP A
+B: JRO UP
+JMP B
+JMP A
+JMP A
+JMP A
+C: JRO UP
+JMP B
+JMP A
+JMP A
+MOV DOWN NIL
+A: JRO UP
+JMP B
+JMP A
+
+@2
+
+
+@3
+
+
+@4
+MOV DOWN UP
+
+@5
+NOP
+NOP
+MOV 1 ANY
+
+@6
+
+
+@7
+
+
+@8
+MOV 0 ANY
+
+@9
+MOV ANY DOWN
+
+@10
+
