@@ -1,0 +1,46 @@
+@0
+## FEWEST NODES
+
+# 2467/4/16
+
+@1
+SUB UP #-H
+JMP S
+L: MOV 0 DOWN #X
+S: ADD 18
+MOV ACC DOWN
+SUB 17
+JNZ L
+MOV 1 DOWN #X++
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV ACC RIGHT
+MOV UP RIGHT
+ADD UP
+
+@9
+MOV LEFT DOWN #X
+MOV LEFT DOWN #Y
+MOV 3 DOWN
+MOV -1 DOWN
+
+@10
+
