@@ -1,0 +1,46 @@
+@0
+## FEWEST INSTRS
+
+# 2657/4/15
+# NEW: 2774
+
+@1
+SUB UP #-H
+JMP S
+L: MOV 0 DOWN #X
+S: ADD 18
+MOV ACC DOWN
+SUB 17
+JNZ L
+MOV 1 DOWN #X++
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+MOV ACC DOWN #X
+MOV LEFT DOWN #Y
+MOV 3 DOWN
+ADD LEFT
+MOV -1 DOWN
+
+@10
+

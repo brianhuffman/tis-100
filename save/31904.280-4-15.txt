@@ -1,0 +1,47 @@
+@0
+## FEWEST INSTRS
+
+# 292/4/15
+
+# NEW: 280/4/15
+
+@1
+MOV UP ACC
+MOV ACC DOWN
+ADD 1
+MOV ACC DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP DOWN
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+ADD UP
+JRO UP
+EZ: MOV 1 RIGHT
+MOV ACC DOWN
+MOV 0 ACC
+NZ: MOV 3 RIGHT
+
+@9
+JRO LEFT
+1: MOV ACC DOWN
+MOV -2 ACC
+3: ADD 1
+
+@10
+
