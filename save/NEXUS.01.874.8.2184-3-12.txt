@@ -1,0 +1,40 @@
+@0
+## FEWEST NODES
+
+# 2184/3/12
+
+@1
+MOV UP ACC
+ADD ACC
+SUB 1
+L: MOV ACC DOWN
+SUB 4
+JGZ L
+MOV 999 DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP DOWN
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV -999 ACC
+L: ADD UP
+JLZ L
+MOV ACC DOWN
+
+@9
+
