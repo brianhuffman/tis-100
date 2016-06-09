@@ -1,0 +1,39 @@
+@0
+
+
+@1
+MOV UP ACC
+SUB RIGHT
+MOV ACC DOWN
+MOV ACC DOWN
+
+@2
+MOV UP LEFT
+
+@3
+## FEWEST INSTRS
+
+# 237/5/10
+
+@4
+
+
+@5
+MOV UP DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP ANY
+
+@9
+MOV 0 ACC
+SUB LEFT
+MOV ACC DOWN
+
+@10
+
