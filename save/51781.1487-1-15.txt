@@ -1,0 +1,48 @@
+@0
+## NODES, CYCLES
+
+# 1487/1/15
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV ACC DOWN
+SWP
+MOV ACC DOWN
+SUB 139
+MOV 3 DOWN
+B: MOV 0 DOWN
+MOV 3 DOWN
+MOV 0 DOWN
+MOV 3 DOWN
+ADD 20
+JLZ B
+SWP
+MOV -1 DOWN
+NEG
+ADD 1
+
+@10
+

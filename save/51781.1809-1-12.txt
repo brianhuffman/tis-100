@@ -1,0 +1,43 @@
+@0
+# 1809/1/12
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV ACC DOWN
+SWP
+MOV ACC DOWN
+SUB 299
+B: MOV 3 DOWN
+MOV 0 DOWN
+ADD 20
+JLZ B
+SWP
+MOV -1 DOWN
+NEG
+ADD 1
+
+@10
+
