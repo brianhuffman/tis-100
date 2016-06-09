@@ -1,0 +1,48 @@
+@0
+## FEWEST NODES
+
+# 240/4/15
+
+# NEW: 245/4/15
+
+@1
+MOV UP ACC
+MOV ACC DOWN
+MOV ACC DOWN
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+ADD 9
+SUB UP
+MOV ACC DOWN
+MOV UP ACC
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+START:
+MOV LEFT ACC
+JLZ 1
+SUB 19
+JLZ 0
+1: MOV 1 DOWN
+JMP START
+0: MOV 0 DOWN
+
+@10
+
