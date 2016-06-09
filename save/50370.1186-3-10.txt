@@ -1,0 +1,41 @@
+@0
+## FEWEST CYCLES
+
+# 1186/3/10
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV 3 DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV ACC RIGHT
+SUB 579
+LOOP: ADD 20
+JLZ LOOP
+MOV -1 RIGHT
+MOV 0 RIGHT
+
+@9
+MOV LAST DOWN
+MOV ANY DOWN
+MOV ANY DOWN
+
+@10
+
