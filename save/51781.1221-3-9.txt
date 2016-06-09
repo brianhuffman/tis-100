@@ -1,0 +1,38 @@
+@0
+## FEWEST INSTRS
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV 0 RIGHT
+MOV ACC RIGHT
+SUB 599
+LOOP: ADD 20
+JLZ LOOP
+MOV -1 RIGHT
+
+@9
+MOV ANY DOWN
+
+@10
+MOV 3 LEFT
+MOV 0 LEFT
