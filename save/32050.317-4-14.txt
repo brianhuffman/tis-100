@@ -1,0 +1,44 @@
+@0
+## FEWEST INSTRS
+
+# 317/4/14
+
+@1
+MOV UP ACC
+MOV ACC DOWN
+MOV ACC DOWN
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+SUB 9
+SUB LEFT
+JGZ 1
+ADD 19
+JGZ 0
+1: MOV 1 DOWN
+JMP S
+0: MOV 0 DOWN
+S: MOV LEFT ACC
+
+@10
+
