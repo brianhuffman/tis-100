@@ -1,0 +1,48 @@
+@0
+## FEWEST NODES
+
+# 1541/3/20
+
+@1
+MOV UP ACC
+ADD ACC
+ADD ACC
+L: MOV ACC DOWN
+SUB 16
+JGZ L
+ADD 8
+JGZ E
+MOV 7 DOWN
+JEZ E
+1: MOV 8 DOWN
+E: MOV -999 DOWN
+
+@2
+
+
+@3
+
+
+@4
+S: SAV
+ADD UP
+JGZ T
+SWP
+MOV ACC DOWN
+MOV 6 ACC
+T: SUB 6
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP DOWN
+
+@9
+
