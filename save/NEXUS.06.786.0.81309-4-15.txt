@@ -1,0 +1,45 @@
+@0
+## FEWEST INSTRS
+
+# 81309/4/15
+
+@1
+MOV UP RIGHT
+
+@2
+MOV UP DOWN
+MOV LEFT DOWN
+MOV 0 DOWN
+
+@3
+
+
+@4
+
+
+@5
+MOV -97 ACC
+L: MOV -1 DOWN
+SUB 2
+JGZ L
+ADD UP
+JGZ L
+MOV 1 DOWN
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV 47 ACC
+ADD 1
+JRO UP
+MOV ACC DOWN
+
+@10
+
