@@ -1,0 +1,39 @@
+@0
+## FEWEST INSTRS
+
+# 5060/3/11
+
+@1
+MOV UP ACC
+L: MOV DOWN NIL
+MOV ACC DOWN
+SUB 1
+JGZ L
+MOV -999 DOWN
+
+@2
+
+
+@3
+
+
+@4
+JGZ OUT
+MOV 0 ACC
+OUT: MOV ACC ANY
+ADD UP
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP DOWN
+
+@9
+
