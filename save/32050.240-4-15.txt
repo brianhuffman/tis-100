@@ -1,0 +1,46 @@
+@0
+## FEWEST NODES
+
+# 240/4/15
+
+@1
+MOV UP ACC
+MOV ACC LAST
+MOV ACC ANY
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP ACC
+SUB 9
+SUB UP
+MOV ACC DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+0: MOV 0 DOWN
+START:
+MOV LEFT ACC
+JGZ 1
+ADD 19
+JGZ 0
+1: MOV 1 DOWN
+JMP START
+
+@10
+

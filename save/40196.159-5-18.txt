@@ -1,0 +1,45 @@
+@0
+# 159/5/18
+
+@1
+MOV UP ACC
+JEZ EZ
+NZ: MOV 99 DOWN
+MOV UP ACC
+JNZ NZ
+EZ: MOV -1 DOWN
+
+@2
+
+
+@3
+
+
+@4
+JMP A
+MOV DOWN NIL
+C: JRO UP
+B: JRO UP
+A: JRO UP
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV 0 ANY
+
+@9
+MOV LEFT NIL
+MOV LEFT NIL
+L: NOP
+MOV ANY DOWN
+JMP L
+
+@10
+MOV 1 LEFT
