@@ -1,0 +1,42 @@
+@0
+## FEWEST INSTRS
+
+# 955/4/12
+
+@1
+MOV -4 ACC
+ADD UP
+MOV ACC DOWN
+ADD 5
+LOOP: SUB 8
+MOV DOWN DOWN
+JGZ LOOP
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP ACC
+ADD 2
+MOV ACC ANY
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+MOV LEFT DOWN
+
+@10
+
