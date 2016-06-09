@@ -1,0 +1,57 @@
+@0
+## FEWEST INSTRS
+
+# 294/4/13
+
+@1
+S: JRO UP
+MOV -999 ACC
+ADD 0
+ADD 504
+ADD ACC
+ADD 396
+JNZ NZ
+MOV 1 DOWN
+JMP S
+NZ: MOV 0 DOWN
+
+@2
+# 1: X=-594
+# 2: X=2X+1404
+# 3: X=2X+1404
+# 4: X=2X+396
+# 5: X=X+396
+# MAX 999
+# MIN -603
+
+@3
+
+
+@4
+MOV UP DOWN
+
+@5
+# ACC MUST BE
+# -603, -207, -18,
+# 189, 198, 216,
+# 360, 378, 396,
+# 585, 594, 612,
+# 756, 774, 792,
+# 828, 981, 990,
+# 999, -594, -198,
+# OR 0
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+MOV LEFT DOWN
+
+@10
+
