@@ -1,0 +1,37 @@
+@0
+# 122/4/10
+
+@1
+MOV UP DOWN
+
+MOV UP ACC
+ADD ACC
+MOV ACC DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP ACC
+ADD ACC
+MOV ACC DOWN
+
+MOV UP DOWN
+
+@5
+
+
+@6
+
+
+@7
+MOV UP RIGHT
+
+@8
+MOV LEFT DOWN
+
+@9
+
