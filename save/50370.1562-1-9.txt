@@ -1,0 +1,40 @@
+@0
+# 1562/1/9
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV 0 DOWN
+MOV ACC DOWN
+SUB 199
+B: MOV 3 DOWN
+MOV 3 DOWN
+MOV 3 DOWN
+ADD 20
+JLZ B
+MOV -1 DOWN
+
+@10
+
