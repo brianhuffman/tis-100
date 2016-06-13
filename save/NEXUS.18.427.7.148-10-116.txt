@@ -1,0 +1,142 @@
+@0
+MOV -31 ACC
+  MOV RIGHT DOWN
+
+ADD RIGHT
+JGZ GZ
+LZ: ADD 16
+MOV ACC DOWN
+MOV 0 ACC
+JMP E
+GZ: SUB 16
+MOV ACC DOWN
+MOV 40 ACC
+E: MOV ACC DOWN
+
+@1
+MOV UP LEFT
+MOV UP LEFT
+MOV UP RIGHT
+MOV UP RIGHT
+
+@2
+MOV -31 ACC
+  MOV LEFT DOWN
+
+ADD LEFT
+JGZ GZ
+LZ: ADD 16
+MOV ACC DOWN
+MOV 0 ACC
+JMP E
+GZ: SUB 16
+MOV ACC DOWN
+MOV 40 ACC
+E: MOV ACC DOWN
+
+@3
+## FEWEST CYCLES
+
+# 148/10/116
+
+@4
+MOV ACC RIGHT #8,9
+  MOV UP RIGHT
+MOV UP ACC    #1
+JGZ CD        #2
+AB: ADD 8     #3
+JGZ B         #4
+A: ADD 7      #5
+JMP E         #6
+B: ADD 9      #5
+JMP E         #6
+CD: SUB 8     #3
+JGZ D         #4
+C: SUB 2      #5
+D: ADD 29     #6
+E: ADD UP     #7
+
+@5
+MOV -31 ACC
+MOV LEFT LAST
+ADD LEFT
+JGZ GZ
+LZ: ADD 16
+MOV ACC DOWN
+MOV 0 ACC
+JMP E
+GZ: SUB 16
+MOV ACC DOWN
+MOV 40 ACC
+E: MOV ACC ANY
+
+@6
+MOV ACC RIGHT #8,9
+  MOV UP RIGHT
+MOV UP ACC    #1
+JGZ CD        #2
+AB: ADD 8     #3
+JGZ B         #4
+A: ADD 7      #5
+JMP E         #6
+B: ADD 9      #5
+JMP E         #6
+CD: SUB 8     #3
+JGZ D         #4
+C: SUB 2      #5
+D: ADD 29     #6
+E: ADD UP     #7
+
+@7
+MOV -31 ACC
+MOV LEFT LAST
+ADD LEFT
+JGZ GZ
+LZ: ADD 16
+MOV ACC DOWN
+MOV 0 ACC
+JMP E
+GZ: SUB 16
+MOV ACC DOWN
+MOV 40 ACC
+E: MOV ACC ANY
+
+@8
+MOV UP ACC    #1
+JGZ CD        #2
+AB: ADD 8     #3
+JGZ B         #4
+A: ADD 7      #5
+JMP E         #6
+B: ADD 9      #5
+JMP E         #6
+CD: SUB 8     #3
+JGZ D         #4
+C: SUB 2      #5
+D: ADD 29     #6
+E: ADD UP     #7
+MOV ACC RIGHT #8,9
+MOV UP RIGHT
+
+@9
+MOV LEFT DOWN
+MOV LEFT DOWN
+MOV RIGHT DOWN
+MOV RIGHT DOWN
+
+@10
+MOV UP ACC    #1
+JGZ CD        #2
+AB: ADD 8     #3
+JGZ B         #4
+A: ADD 7      #5
+JMP E         #6
+B: ADD 9      #5
+JMP E         #6
+CD: SUB 8     #3
+JGZ D         #4
+C: SUB 2      #5
+D: ADD 29     #6
+E: ADD UP     #7
+MOV ACC LEFT  #8,9
+MOV UP LEFT
