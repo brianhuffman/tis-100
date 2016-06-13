@@ -1,0 +1,61 @@
+@0
+## NODES, CYCLES
+
+# 149/4/23
+
+# 149,146,146
+
+@1
+A: MOV UP ACC
+JNZ 0A # JEZ B
+B: MOV UP ACC
+JEZ BC # JNZ 00A
+00A: MOV -2 DOWN
+JMP A
+BC: MOV 2 DOWN
+C': MOV UP ACC
+JNZ 000A # JEZ 1C
+1C: MOV -1 DOWN
+C: MOV UP ACC
+JEZ 1C #JNZ 000A
+000A: MOV 1 DOWN
+JMP A
+0A: MOV -1 DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP DOWN
+
+@5
+
+
+@6
+#START: "00" -> A
+#A,EZ: "0" -> A
+#A,NZ: "" -> B
+#B,EZ: "" -> C
+#B,NZ: "00" -> A
+#C,EZ: "1" -> C
+#C,NZ: "000" -> A
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+MOV 0 DOWN
+MOV 0 DOWN
+A: JRO LEFT
+MOV 1 DOWN
+C: JRO LEFT
+MOV 0 DOWN
+
+@10
+
