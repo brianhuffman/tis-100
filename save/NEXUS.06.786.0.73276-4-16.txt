@@ -1,0 +1,44 @@
+@0
+# 73276/4/16
+
+@1
+MOV UP RIGHT
+
+@2
+MOV UP DOWN
+MOV LEFT DOWN
+
+@3
+
+
+@4
+
+
+@5
+MOV -197 ACC
+MOV 97 DOWN
+ADD UP
+A: SUB 2
+MOV DOWN DOWN
+JGZ A
+ADD UP
+B: MOV DOWN DOWN
+SUB 2
+JGZ B
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP ACC
+ADD 1
+MOV ACC ANY
+
+@10
+

@@ -1,0 +1,44 @@
+@0
+# 1700/1/13
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV ACC DOWN
+SWP
+MOV ACC DOWN
+ADD 1
+SWP
+SUB 17
+B: MOV 3 DOWN
+MOV 0 DOWN
+MOV 3 DOWN
+MOV 0 DOWN
+ADD 2
+JLZ B
+MOV -1 DOWN
+
+@10
+
