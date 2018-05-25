@@ -18,7 +18,7 @@ Best scores (Cycles/Nodes/Instructions)
 | 42656 SEQUENCE REVERSER             | 203/5/32    | 314/3/8     | 314/3/8     | 265/3/24    |
 | 43786 SIGNAL MULTIPLIER             | 232/8/74    | 434/4/23    | 1499/4/15   | 386/4/33    |
 | 50370 IMAGE TEST PATTERN 1          | 1186/3/10   | 1742/1/8    | 2282/1/7    | 1346/1/15   |
-| 51781 IMAGE TEST PATTERN 2          | 1150/3/17   | 1848/1/11   | 1221/3/9    | 1487/1/15   |
+| 51781 IMAGE TEST PATTERN 2          | 1150/3/15   | 1848/1/11   | 1221/3/9    | 1487/1/15   |
 | 52544 EXPOSURE MASK VIEWER          | 515/6/40    | 601/4/34    | 864/5/28    | 554/4/42    |
 | 53897 HISTOGRAM VIEWER              | 2465/4/19   | 2467/4/16   | 2774/4/15   | 2465/4/19   |
 | 60099 SIGNAL WINDOW FILTER          | 200/9/30    | 314/4/18    | 389/4/17    | 313/4/24    |

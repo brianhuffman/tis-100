@@ -1,0 +1,52 @@
+@0
+## FEWEST CYCLES
+
+# 1150/3/16
+
+@1
+
+
+@2
+
+
+@3
+# 32 OUTPUTS/ROW
+
+# X,Y,3,0,3,0,3,0
+# 3,0,3,0,3,0,3,0
+# 3,0,3,0,3,0,3,0
+# 3,0,3,0,3,0,3,-1
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+NEG
+SUB 29
+L: MOV 3 RIGHT
+ADD 2
+JLZ L
+MOV ACC RIGHT
+
+@9
+MOV LAST DOWN
+MOV RIGHT DOWN
+MOV ANY DOWN
+MOV RIGHT DOWN
+
+@10
+MOV ACC LEFT
+SUB 279
+L: MOV 0 LEFT
+ADD 20
+JLZ L
+MOV -1 LEFT
